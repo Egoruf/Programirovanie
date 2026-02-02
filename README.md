@@ -1,5 +1,6 @@
 # Programirovanie
 zadaniya
+'''
 champions = {
     "Nedelin Dmitry" :
     {
@@ -47,3 +48,4 @@ champions = {
 
 for i in champions:
     print(champions[i]["name"], champions[i]["achievements"])
+'''
