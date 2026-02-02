@@ -1,6 +1,14 @@
-# Programirovanie
-zadaniya
-'''
+<div align="center">
+
+# ✨ Programirovanie
+
+</div>
+
+---
+
+## 🚀 Code
+
+```bash
 champions = {
     "Nedelin Dmitry" :
     {
@@ -48,4 +56,4 @@ champions = {
 
 for i in champions:
     print(champions[i]["name"], champions[i]["achievements"])
-'''
+```
