@@ -1,0 +1,47 @@
+champions = {
+    "Nedelin Dmitry" :
+    {
+        "name" : "Дмитрий Неделин",
+        "age": 35,
+        "achievements": ["Победитель казанского марафона", "Победитель московского марафона"]
+    },
+    "Bublik Alexander" :
+    {
+        "name": "Александр Бублик",
+        "age": 29,
+        "achievements": ["ATP number 10", "серебряный призёр Азиатских игр"]
+    },
+    "Alcaras Carlos" :
+    {
+        "name": "Карлос Алькарас",
+        "age": 22,
+        "achievements": ["ATP number 1", "обладатель большого шлема"]
+    },
+    "Djokovic Novak" :
+    {
+        "name": "Новак Джокович",
+        "age": 39,
+        "achievements": ["ATP number 4", "Рекордсмен по количеству титулов на турнирах Большого шлема"]
+    },
+    "Medvedev Daniil" :
+    {
+        "name": "Даниил Медведев",
+        "age": 29,
+        "achievements": ["бывшая первая ракетка мира", "победитель 22 турниров ATP"]
+    },
+    "Shidlovskiy Artemiy" :
+    {
+        "name": "Шидловский Артемий",
+        "age": 16,
+        "achievements": ["Чемпион мира по теннису", "Мастер спорта по спорту"]
+    },
+    "Sinner Jannik" :
+    {
+        "name": "Яник Синнер",
+        "age": 24,
+        "achievements": ["победитель четырёх турниров Большого шлема", "победитель Итогового турнира ATP 2024 года"]
+    }
+}
+
+for i in champions:
+    print(champions[i]["name"], champions[i]["achievements"])
